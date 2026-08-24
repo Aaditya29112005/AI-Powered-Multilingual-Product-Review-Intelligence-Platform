@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+.venv/
+
+# Next.js build
+frontend/.next/
+frontend/out/
+
+# Python cache & database
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.db
+*.sqlite
+backend/reviewflow.db
+backend/exports/
+frontend/exports/
+exports/
+
+# Environment files
+.env
+.env.local
+.env.production
+.ds_store
+.DS_Store
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
